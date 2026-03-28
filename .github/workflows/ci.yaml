@@ -11,8 +11,9 @@ on:
   workflow_dispatch:
 
 permissions:
-  actions: write
+  actions: read
   contents: write
+  pull-requests: read
   packages: read
   security-events: write
 
