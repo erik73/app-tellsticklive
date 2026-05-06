@@ -13,4 +13,4 @@ permissions:
 
 jobs:
   workflows:
-    uses: erik73/workflows/.github/workflows/stale.yaml@33268deb018d8496ffbdb76e6da9219cebd22d50 # v1.1.0
+    uses: erik73/workflows/.github/workflows/stale.yaml@6fd809e6e18800706d6efae8e8fa2995872adc42 # v1.1.1
