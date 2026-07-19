@@ -19,7 +19,7 @@ ENV S6_STAGE2_HOOK=/etc/s6-s2-hook/select-services.sh
 RUN apk add --no-cache \
         confuse=3.3-r4 \
         libftdi1=1.5-r5 \
-        libstdc++=15.2.0-r2 \
+        libstdc++=15.2.0-r5 \
         socat=1.8.0.3-r1 \
     && apk add --no-cache --virtual .build-dependencies \
         argp-standalone=1.5.0-r1 \
